@@ -16,10 +16,10 @@ public class Airplane {
 
     public static void compareAirplanes(Airplane airplaneOne, Airplane airplaneTwo){
         if (airplaneOne.length > airplaneTwo.length)
-            System.out.println("Первый самолёт длиннее");
+            System.out.println("Первый самолет длиннее");
         else if (airplaneTwo.length > airplaneOne.length)
-            System.out.println("Второй самолёт длиннее");
-        else System.out.println("Самолёты равны");
+            System.out.println("Второй самолет длиннее");
+        else System.out.println("Длины самолетов равны");
     }
 
     public void info(){
